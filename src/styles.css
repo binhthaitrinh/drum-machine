@@ -1,0 +1,21 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pad-section {
+  background-color: tomato;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.controller {
+  background-color: palevioletred;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
